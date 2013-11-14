@@ -1,8 +1,13 @@
+# -*- encoding: utf8 -*-
 import logging
 
 
-__version__ = '11.15'
-VERSION = tuple(map(int, __version__.split('.')))
+__author__ = "Mikko Hellsing"
+__license__ = "BSD"
+__version__ = '12.1'
+__maintainer__ = u"Mario César Señoranis Ayala"
+__email__ = "mariocesar@creat1va.com"
+__status__ = "Production"
 
 
 class NullHandler(logging.Handler):
