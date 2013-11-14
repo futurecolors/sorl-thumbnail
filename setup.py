@@ -18,12 +18,10 @@ setup(
     long_description=open('README.rst').read(),
     author=__author__,
     author_email='mikko@aino.se',
-    license='BSD',
     url='https://github.com/futurecolors/sorl-thumbnail',
     maintainer=__maintainer__,
     maintainer_email=__email__,
     license=__license__,
-    url='https://github.com/mariocesar/sorl-thumbnail',
     packages=find_packages(exclude=['tests', 'tests.*']),
     platforms='any',
     zip_safe=False,
@@ -40,4 +38,3 @@ setup(
     ],
     cmdclass={"test": TestCommand},
 )
-
